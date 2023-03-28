@@ -77,6 +77,24 @@
 
   (net 0 "")
 
+  (footprint "1.Cookie.Board:FBConnector" (layer "F.Cu")
+    (tstamp 38d9aff8-e82b-4d90-a393-fa8272fd8668)
+    (at 26.35 23.79)
+    (fp_text reference "REF**" (at -0.02 9.21 unlocked) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.1)))
+      (tstamp 72f8c10c-877e-46cc-810c-1eed11899ec8)
+    )
+    (fp_text value "FBConnector" (at 0.36 13.61 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e485f64f-fc69-4208-b08f-57dd07f9b6b7)
+    )
+    (fp_rect (start -0.1 -0.1) (end 0.1 0.1)
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp b80912aa-c412-4dc1-9f7b-dfc5a042c965))
+    (fp_rect (start -0.1 -0.1) (end 0.1 0.1)
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.Cu") (tstamp f8128d4c-dd5f-48fe-a392-30a2d1ccf26e))
+    (pad "1" thru_hole circle (at 0 0) (size 0.1 0.1) (drill 0.1) (layers "*.Cu") (tstamp 099caf92-d73b-4237-9aa9-00cd8bcab331))
+  )
+
   (gr_arc (start 26.83504 32.235) (mid 27.194224 32.383804) (end 27.34304 32.743)
     (stroke (width 0.1) (type solid)) (layer "F.Cu") (tstamp 0919aed7-24d7-441f-8ff2-bf9e7baddbd2))
   (gr_poly
@@ -162,8 +180,6 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Cu") (tstamp 925ac6c7-e2e4-43aa-b5af-7a6df8d306c7))
-  (gr_arc (start 25.93 22.93) (mid 29.012419 27.568262) (end 30.552985 32.920032)
-    (stroke (width 0.5) (type solid)) (layer "F.Cu") (tstamp 933bbb1c-4a4f-46b9-8553-f3c565fa27ab))
   (gr_arc (start 32.44844 34.2416) (mid 32.299653 34.600824) (end 31.94044 34.7496)
     (stroke (width 0.1) (type solid)) (layer "F.Cu") (tstamp 93849d5b-cc98-42e2-9280-00582b54394b))
   (gr_arc (start 29.29884 32.743) (mid 29.447632 32.383804) (end 29.80684 32.235)
@@ -228,6 +244,8 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Cu") (tstamp 41d53856-42cc-4457-bebb-5741e63ee131))
+  (gr_line (start 26.35 23.79) (end 31 28.44)
+    (stroke (width 0.2) (type default)) (layer "B.Cu") (tstamp 4efa25e3-630f-48cb-b7d9-32154e2e7716))
   (gr_poly
     (pts
       (xy 26.806924 34.749979)
@@ -243,6 +261,8 @@
     (stroke (width 0.1) (type solid)) (layer "B.Cu") (tstamp 5d08cc9f-2208-4670-8c68-b408c546c11b))
   (gr_arc (start 13.014724 32.743379) (mid 13.163522 32.384177) (end 13.522724 32.235379)
     (stroke (width 0.1) (type solid)) (layer "B.Cu") (tstamp 69a55c76-6e63-4ab0-b52f-8f960d331967))
+  (gr_line (start 31 28.44) (end 31 32.82)
+    (stroke (width 0.2) (type default)) (layer "B.Cu") (tstamp 8a2f1aa0-3af7-4230-8c1a-06c89232ec4f))
   (gr_poly
     (pts
       (xy 27.340324 34.241979)
@@ -357,14 +377,10 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Cu") (tstamp f6505eb1-45a9-43cf-be38-d47ed60f1ed0))
-  (gr_arc (start 26.255922 12.500319) (mid 22.70698 16.050122) (end 19.154081 12.504279)
-    (stroke (width 0.01) (type solid)) (layer "F.SilkS") (tstamp 12712fef-1638-4072-823c-97bb36df7ce6))
   (gr_rect (start 12.435 32.085) (end 32.815 35.245)
     (stroke (width 0.01) (type solid)) (fill solid) (layer "B.Mask") (tstamp ac4bdf39-edd5-4f65-ba19-fabe8d5d80d1))
-  (gr_rect (start 16.955 25.895) (end 26.455 16.095)
+  (gr_rect (start 12.61 12.47) (end 32.7 35.231967)
     (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 848f29ea-eedd-41fd-a356-82ea8525cd6c))
-  (gr_rect (start 12.435 32.085) (end 32.815 35.245)
-    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp c645f958-dd3d-44c3-8349-acff4e57bd4f))
   (gr_line (start 29.4233 35.1052) (end 32.29604 35.1052)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 06ac2812-add9-45c5-aeee-39aa022e7c52))
   (gr_arc (start 32.67704 34.7242) (mid 32.56545 34.993622) (end 32.29604 35.1052)
