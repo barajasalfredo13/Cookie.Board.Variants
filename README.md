@@ -1,5 +1,5 @@
-# Cookie.Board.Variants  
-This is a subiteration of the cookie board design so that a Graphene layer is easier to place  
+# Cookie Board Variants  
+This is a subiteration of the cookie board design
 Stencils were made to create protected layers  
   
 ### ::: Base of the Cookie Board ::: ###  
