@@ -221,7 +221,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../4.Stencils.Step/Cookie_Mantis_Base.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
