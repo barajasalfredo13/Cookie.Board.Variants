@@ -1,7 +1,14 @@
 # Cookie Board Variants  
 This is a subiteration of the cookie board design
 Stencils were made to create protected layers  
-  
+
+⚠️ PCB Dimensions ⚠️  
+- 0.8 mm Thickness  
+::: ZIP Gerber Dimensions :::  
+- Full Board Stencil Dimensions ::: [x; 61.034 y; 45.501] mm  
+- Full Board Cookie Dimensions ::: [x; 40.6 y; 46.15] mm  
+
+
 ### ::: Base of the Cookie Board ::: ###  
 -6x6 mm pad  
 -0.5 mm and 1.0 mm graphic for trace displacement and design  
